@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-24T17:37:45 EDT" name="Default suite" finished-at="2023-07-24T17:37:48 EDT" duration-ms="3114">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T17:37:45 EDT" name="Default test" finished-at="2023-07-24T17:37:48 EDT" duration-ms="3114">
+      <class name="mylambton_webtest.HomeTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:mylambton_webtest.HomeTest@783a467b]" started-at="2023-07-24T17:37:45 EDT" name="beforeMethod" finished-at="2023-07-24T17:37:45 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:mylambton_webtest.HomeTest@783a467b]" started-at="2023-07-24T17:37:45 EDT" name="f" finished-at="2023-07-24T17:37:48 EDT" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:mylambton_webtest.HomeTest@783a467b]" started-at="2023-07-24T17:37:48 EDT" name="afterMethod" finished-at="2023-07-24T17:37:48 EDT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- mylambton_webtest.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
