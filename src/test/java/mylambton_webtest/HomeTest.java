@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 public class HomeTest {
 	WebDriver driver;
-  	
 	  @Test
 	  public void login() {
 	  	//Setting up the chrome driver exe, the second argument is the location where you have kept the driver in your system
