@@ -22,7 +22,7 @@ public class HomeTest {
 	  	  String expectedTitle = "Google";
 	  	  String actualTitle = "Google";
 	  	 // String actualTitle = driver.getTitle();
-	  	  System.out.println("Inside test")
+	  	  System.out.println("Inside test");
 	  	  Assert.assertEquals(actualTitle, expectedTitle);
 	    }
 	  @BeforeMethod
