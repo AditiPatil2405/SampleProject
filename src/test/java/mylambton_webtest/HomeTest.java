@@ -12,7 +12,7 @@ public class HomeTest {
 	  @Test
 	  public void login() {
 	  	//Setting up the chrome driver exe, the second argument is the location where you have kept the driver in your system
-	  	  System.setProperty("webdriver.chrome.driver", "D:\\Sem 2\\sampleproject\\src\\main\\resources\\chromedriver.exe");
+	  	  System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 	  	 
 	  	//Setting the driver to chrome driver
 	  	  driver = new ChromeDriver();

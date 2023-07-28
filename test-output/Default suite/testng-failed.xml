@@ -6,6 +6,8 @@
       <class name="mylambton_webtest.HomeTest">
         <methods>
           <include name="login"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- mylambton_webtest.HomeTest -->
     </classes>
