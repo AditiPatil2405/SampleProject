@@ -23,15 +23,13 @@ pipeline {
             steps {
                 sh """ 
                     docker build -t ${DOCKER_IMAGE}:${DOCKER_TAG} .
-                    echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin
-                    docker push ${DOCKER_IMAGE}:${DOCKER_TAG}
-                    docker logout
+                    docker run ${DOCKER_IMAGE}:${DOCKER_TAG}
                 """
                 
             }
         }
 
-        stage('Deploy to Nginx Container') {
+     /*   stage('Deploy to Nginx Container') {
             steps { 
                 // SSH into the target VM and deploy the Nginx container 
                 // Stop and remove the existing Nginx container
@@ -51,7 +49,7 @@ pipeline {
                     '
                 """
             }
-        }
+        }*/
         stage('Test') {
             steps {
                 sh "mvn -D clean test"
