@@ -35,8 +35,7 @@ public class HomeTest {
 	@SuppressWarnings("deprecation")
 	@Test
 	public void login() throws IOException {
-		// Setting up the chrome driver exe, the second argument is the location where
-		// you have kept the driver in your system
+		
 		
 		System.out.println(" current dir "+System.getProperty("user.dir"));
 		
