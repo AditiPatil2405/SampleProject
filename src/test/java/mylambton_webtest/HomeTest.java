@@ -37,11 +37,11 @@ public class HomeTest {
 	public void login() throws IOException {
 		
 		
-		System.out.println(" current dir "+System.getProperty("user.dir"));
+		System.out.println(" current dir == "+System.getProperty("user.dir"));
 		
-		System.out.println(System.getProperty("user.dir") +"/src/main/resources/chromedriver.exe");	
+		System.out.println(System.getProperty("user.dir") +"\\src\\main\\resources\\chromedriver.exe");	
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"\\src\\main\\resources\\chromedriver.exe");
 
 		// Setting the driver to chrome driver
 		driver = new ChromeDriver();
