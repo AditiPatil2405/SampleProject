@@ -49,7 +49,8 @@ public class HomeTest {
 		test.log(LogStatus.PASS,test.addScreenCapture(capture(driver)));
 		WebElement element = driver.findElement(By.xpath("(//*[@name='email'])[1]"));
 		element.sendKeys("xyz@gmail.com");
-		test.log(LogStatus.PASS,test.addScreenCapture(capture(driver)));
+		test.log(LogStatus.PASS,"Enter Email Address",test.addScreenCapture(capture(driver)));
+		
 		/*
 		 * //Capturing the title and validating if expected is equal to actual String
 		 * expectedTitle = "Google"; String actualTitle = "Google"; // String
